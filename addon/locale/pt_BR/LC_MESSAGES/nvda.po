@@ -21,9 +21,18 @@ msgstr ""
 "X-Poedit-Basepath: ../../../globalPlugins\n"
 "X-Poedit-SearchPath-0: nvdaNetworkStatus.py\n"
 
-#: addon\globalPlugins\nvdaNetworkStatus.py:18
-msgid "Strength of signal is: "
-msgstr "Força do sinal:"
+#: addon/globalPlugins/nvdaNetworkStatus.py
+msgid "Wi-Fi not connected"
+msgstr "Wi-Fi não conectado"
+
+#: addon/globalPlugins/nvdaNetworkStatus.py
+#, python-brace-format
+msgid "Wi-Fi signal strength: {quality} percent"
+msgstr "Força do sinal Wi-Fi: {quality} por cento"
+
+#: addon/globalPlugins/nvdaNetworkStatus.py
+msgid "Unable to determine Wi-Fi signal strength"
+msgstr "Não foi possível determinar a força do sinal Wi-Fi"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
