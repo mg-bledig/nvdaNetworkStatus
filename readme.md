@@ -6,6 +6,11 @@ NVDA Network Status reports network and Internet connectivity status and wireles
 * Maintainer: Mike Bledig
 * Repository: https://github.com/mg-bledig/nvdaNetworkStatus
 
+## Compatibility
+
+Requires NVDA 2026.1 or later.
+Tested with NVDA 2026.2.
+
 ## Current behavior
 
 * Automatically announces "Network disconnected" when network connectivity is lost.
