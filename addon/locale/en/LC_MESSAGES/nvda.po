@@ -59,3 +59,8 @@ msgstr ""
 
 #~ msgid "Paste"
 #~ msgstr "Colar"
+
+#. Translators: Release notes for version 1.0.
+#: buildVars.py
+msgid "Initial NVDA Network Status release, based on Rui Fontes' original networkStrenght add-on. Adds automatic Internet connectivity change announcements, a manual Internet status command, and connected Wi-Fi signal strength reporting using the native Windows WLAN API."
+msgstr ""

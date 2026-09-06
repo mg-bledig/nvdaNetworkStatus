@@ -1,9 +1,9 @@
 # coding=UTF-8
 # NVDA Network Status
-# Maintained by Mike Bledig
+# Maintained by Michael Bledig
 # Based on the original networkStrenght add-on by Rui Fontes
 # Original copyright 2020 Rui Fontes
-# Modifications/continuation copyright 2026 Mike Bledig
+# Modifications/continuation copyright 2026 Michael Bledig
 
 import globalPluginHandler
 import inputCore

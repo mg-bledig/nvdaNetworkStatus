@@ -25,9 +25,9 @@ addon_info = AddonInfo(
 	addon_version="1.0",
 	# Brief changelog for this version
 	# Translators: what's new content for the add-on version to be shown in the add-on store
-	addon_changelog=_("""Initial NVDA Network Status release, based on Rui Fontes' original networkStrenght add-on, with added Internet connectivity monitoring."""),
+	addon_changelog=_("""Initial NVDA Network Status release, based on Rui Fontes' original networkStrenght add-on. Adds automatic Internet connectivity change announcements, a manual Internet status command, and connected Wi-Fi signal strength reporting using the native Windows WLAN API."""),
 	# Author(s)
-	addon_author="Mike Bledig, based on original work by Rui Fontes",
+	addon_author="Michael Bledig, based on original work by Rui Fontes",
 	# URL for the add-on documentation support
 	addon_url="https://github.com/mg-bledig/nvdaNetworkStatus",
 	# URL for the add-on repository where the source code can be found
