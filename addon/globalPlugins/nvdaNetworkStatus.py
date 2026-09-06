@@ -1,8 +1,9 @@
 # coding=UTF-8
-# networkStrenght.py
-# A simple NVDA add-on to know the wireless network strenght
-# Author: Rui Fontes <rui.fontes@tiflotecnia.com>
-# Copyright 2020
+# NVDA Network Status
+# Maintained by Mike Bledig
+# Based on the original networkStrenght add-on by Rui Fontes
+# Original copyright 2020 Rui Fontes
+# Modifications/continuation copyright 2026 Mike Bledig
 
 import globalPluginHandler
 import inputCore
@@ -110,13 +111,13 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				self._state = state
 			message(_statusText(state))
 
-	def script_announceNetworkStrenght(self, gesture: inputCore.InputGesture) -> None:
+	def script_announceNetworkStrength(self, gesture: inputCore.InputGesture) -> None:
 		results = subprocess.check_output(["netsh", "wlan", "show", "network", "mode=Bssid"])
 		ns = str(results[results.find(b"%") - 3 : results.find(b"%") + 1])
-		message(str(_("Strenght of signal is: ") + ns[2:]))
+		message(str(_("Strength of signal is: ") + ns[2:]))
 
 	#: Now defining a dictionary with key bindings for this plugin
 	__gestures = {
-		"kb:Control+NVDA+n": "announceNetworkStrenght",
+		"kb:Control+NVDA+n": "announceNetworkStrength",
 		"kb:Control+Shift+NVDA+n": "announceInternetStatus",
 	}
