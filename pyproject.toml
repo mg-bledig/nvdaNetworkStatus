@@ -3,9 +3,9 @@ requires = ["setuptools~=80.9", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "networkStrenght"
+name = "nvdaNetworkStatus"
 dynamic = ["version"]
-description = "NVDA add-on for reporting wireless network strength"
+description = "NVDA add-on for reporting network and Internet connectivity status and wireless signal strength"
 maintainers = [
 	{name = "Mike Bledig"},
 ]
@@ -24,7 +24,7 @@ license = {file = "COPYING.txt"}
 # build, translate, or lint the add-on. They are declared as PEP 735 dependency groups.
 dependencies = []
 [project.urls]
-Repository = "https://github.com/mg-bledig/networkStrenght"
+Repository = "https://github.com/mg-bledig/nvdaNetworkStatus"
 
 # PEP 735 dependency groups. `uv sync` installs the `dev` group by default, which
 # pulls in every tool needed to build, translate, and lint the add-on.

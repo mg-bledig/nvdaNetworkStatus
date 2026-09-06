@@ -13,25 +13,25 @@ from site_scons.site_tools.NVDATool.utils import _
 # Add-on information variables
 addon_info = AddonInfo(
 	# add-on Name/identifier, internal for NVDA
-	addon_name="networkStrenght",
+	addon_name="nvdaNetworkStatus",
 	# Add-on summary/title, usually the user visible name of the add-on
 	# Translators: Summary/title for this add-on
 	# to be shown on installation and add-on information found in add-on store
-	addon_summary=_("Announces wireless network strength"),
+	addon_summary=_("NVDA Network Status"),
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on add-on information from add-on store
-	addon_description=_("""Press NVDA+Control+n to hear the wireless network strength."""),
+	addon_description=_("""Reports Internet connectivity changes and wireless network signal strength."""),
 	# version
 	addon_version="1.0",
 	# Brief changelog for this version
 	# Translators: what's new content for the add-on version to be shown in the add-on store
-	addon_changelog=_("""Initial release."""),
+	addon_changelog=_("""Initial NVDA Network Status release, based on Rui Fontes' original networkStrenght add-on, with added Internet connectivity monitoring."""),
 	# Author(s)
-	addon_author="Rui Fontes <rui.fontes@tiflotecnia.com>",
+	addon_author="Mike Bledig, based on original work by Rui Fontes",
 	# URL for the add-on documentation support
-	addon_url="https://github.com/mg-bledig/networkStrenght",
+	addon_url="https://github.com/mg-bledig/nvdaNetworkStatus",
 	# URL for the add-on repository where the source code can be found
-	addon_sourceURL="https://github.com/mg-bledig/networkStrenght",
+	addon_sourceURL="https://github.com/mg-bledig/nvdaNetworkStatus",
 	# Documentation file name
 	addon_docFileName="readme.html",
 	# Minimum NVDA version supported (e.g. "2019.3.0", minor version is optional)
@@ -45,7 +45,7 @@ addon_info = AddonInfo(
 	# Add-on license such as GPL 2
 	addon_license="GPL-2.0",
 	# URL for the license document the ad-on is licensed under
-	addon_licenseURL="https://github.com/mg-bledig/networkStrenght/blob/HEAD/COPYING.txt",
+	addon_licenseURL="https://github.com/mg-bledig/nvdaNetworkStatus/blob/HEAD/COPYING.txt",
 )
 
 # Define the python files that are the sources of your add-on.
